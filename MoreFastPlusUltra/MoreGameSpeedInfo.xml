@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoreGameSpeedInfo -->
+<!-- Author: Tsukun -->
+<!-- DateCreated: 12/02/2022 03:31:53 PM -->
+<GameInfo>
+    <GameSpeeds>
+        <Row GameSpeedType="GAMESPEED_REDCOMET"   Name="LOC_GAMESPEED_REDCOMET_NAME"   Description="LOC_GAMESPEED_REDCOMET_HELP"   SortIndex="8" />
+        <Row GameSpeedType="GAMESPEED_QUATERNION" Name="LOC_GAMESPEED_QUATERNION_NAME" Description="LOC_GAMESPEED_QUATERNION_HELP" SortIndex="6" />
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE"  Name="LOC_GAMESPEED_QUINTUPLE_NAME"  Description="LOC_GAMESPEED_QUINTUPLE_HELP"  SortIndex="4" />
+    </GameSpeeds>
+</GameInfo>

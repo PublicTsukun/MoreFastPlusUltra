@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoreUnitMovmentInfo -->
+<!-- Author: keish -->
+<!-- DateCreated: 12/3/2022 8:44:51 AM -->
+<GameData>
+    <Parameters>
+        <!-- 下の方が見やすいかも？ -->
+        <!-- <Row ConfigurationGroup="Game" ConfigurationId="MORE_UNIT_MOVEMENT" DefaultValue="0" Description="LOC_MORE_UNIT_MOVEMENT_DESCRIPTION" Domain="MoreUnitMovementDom" GroupId="AdvancedOptions" Hash="0" Name="LOC_MORE_UNIT_MOVEMENT_NAME" ParameterId="MoreUnitMovement" SortIndex="600"/> -->
+        <Row>
+            <ParameterId>MoreUnitMovement</ParameterId>
+            <Name>LOC_MORE_UNIT_MOVEMENT_NAME</Name>
+            <Description>LOC_MORE_UNIT_MOVEMENT_DESCRIPTION</Description> 
+            <Domain>MoreUnitMovementDom</Domain> 
+            <DefaultValue>0</DefaultValue> 
+            <ConfigurationGroup>Game</ConfigurationGroup> 
+            <ConfigurationId>MORE_UNIT_MOVEMENT</ConfigurationId> 
+            <Hash>0</Hash>
+            <GroupId>AdvancedOptions</GroupId>
+            <SortIndex>600</SortIndex>
+        </Row>
+    </Parameters>
+    <DomainValues>
+        <Row Domain="MoreUnitMovementDom" Value="0" Name="LOC_MORE_UNIT_MOVEMENT_0_NAME" Description="LOC_MORE_UNIT_MOVEMENT_0_DESCRIPTION" SortIndex="0"/>
+        <Row Domain="MoreUnitMovementDom" Value="1" Name="LOC_MORE_UNIT_MOVEMENT_1_NAME" Description="LOC_MORE_UNIT_MOVEMENT_1_DESCRIPTION" SortIndex="1"/>
+        <Row Domain="MoreUnitMovementDom" Value="2" Name="LOC_MORE_UNIT_MOVEMENT_2_NAME" Description="LOC_MORE_UNIT_MOVEMENT_2_DESCRIPTION" SortIndex="2"/>
+        <Row Domain="MoreUnitMovementDom" Value="3" Name="LOC_MORE_UNIT_MOVEMENT_3_NAME" Description="LOC_MORE_UNIT_MOVEMENT_3_DESCRIPTION" SortIndex="3"/>
+        <Row Domain="MoreUnitMovementDom" Value="4" Name="LOC_MORE_UNIT_MOVEMENT_4_NAME" Description="LOC_MORE_UNIT_MOVEMENT_4_DESCRIPTION" SortIndex="4"/>
+    </DomainValues>
+    <ParameterDependencies>
+        <!-- GS用設定があったりする場合はここで設定 -->
+        <!-- <Row ConfigurationGroup="Game" ConfigurationId="RULESET" ConfigurationValue="RULESET_EXPANSION_1,RULESET_EXPANSION_2" Operator="Exists" ParameterId="xxxx"/> -->
+    </ParameterDependencies>
+</GameData>

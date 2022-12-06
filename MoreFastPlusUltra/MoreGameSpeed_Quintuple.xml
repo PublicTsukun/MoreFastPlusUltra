@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoreGameSpeed_Quintuple -->
+<!-- Author: Tsukun -->
+<!-- DateCreated: 12/02/2022 05:16:14 PM -->
+<GameData>
+    <Types>
+        <Row Type="GAMESPEED_QUINTUPLE" Kind="KIND_GAMESPEED"/>
+    </Types>
+    <GameSpeeds>
+        <Row>
+            <GameSpeedType>GAMESPEED_QUINTUPLE</GameSpeedType>
+            <Name>LOC_GAMESPEED_QUINTUPLE_NAME</Name>
+            <Description>LOC_GAMESPEED_QUINTUPLE_HELP</Description>
+            <CostMultiplier>20</CostMultiplier>
+            <CivicUnlockMaxCost>20</CivicUnlockMaxCost>
+            <CivicUnlockPerTurnDrop>2</CivicUnlockPerTurnDrop>
+            <CivicUnlockMinCost>4</CivicUnlockMinCost>
+        </Row>
+    </GameSpeeds>
+    <GameSpeed_Turns>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="2400" TurnsPerIncrement="15"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="1500" TurnsPerIncrement="12"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="1200" TurnsPerIncrement="5"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="600"  TurnsPerIncrement="10"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="300"  TurnsPerIncrement="12"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="120"  TurnsPerIncrement="10"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="60"   TurnsPerIncrement="24"/>
+        <Row GameSpeedType="GAMESPEED_QUINTUPLE" MonthIncrement="30"   TurnsPerIncrement="12"/>
+    </GameSpeed_Turns>
+    <GameSpeed_Scalings>
+        <Row>
+            <GameSpeedScalingType>QUINTUPLE_HALF</GameSpeedScalingType>
+            <GameSpeedType>GAMESPEED_QUINTUPLE</GameSpeedType>
+            <ScalingType>SCALING_HALF</ScalingType>
+            <DefaultCostMultiplier>25</DefaultCostMultiplier>
+        </Row>
+        <Row>
+            <GameSpeedScalingType>QUINTUPLE_SLIGHT</GameSpeedScalingType>
+            <GameSpeedType>GAMESPEED_QUINTUPLE</GameSpeedType>
+            <ScalingType>SCALING_SLIGHT</ScalingType>
+            <DefaultCostMultiplier>50</DefaultCostMultiplier>
+        </Row>
+    </GameSpeed_Scalings>
+    <GameSpeed_Durations>
+        <!-- 試験的数値 -->
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="5" NumberOfTurnsScaled="5"/>
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="10" NumberOfTurnsScaled="5"/>
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="15" NumberOfTurnsScaled="6"/>
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="29" NumberOfTurnsScaled="7"/>
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="30" NumberOfTurnsScaled="8"/>
+        <Row GameSpeedScalingType="QUINTUPLE_HALF" NumberOfTurnsOnStandard="60" NumberOfTurnsScaled="10"/>
+    </GameSpeed_Durations>
+</GameData>

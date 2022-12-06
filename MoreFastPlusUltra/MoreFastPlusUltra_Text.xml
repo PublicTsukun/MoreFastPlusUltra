@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoreFastPlusUltra_Text -->
+<!-- Author: Tsukun -->
+<!-- DateCreated: 12/02/2022 01:24:38 PM -->
+<GameData>
+    <LocalizedText>
+        <!-- Game Speed -->
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_REDCOMET_NAME">
+            <Text>レッドコメット</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_REDCOMET_HELP">
+            <!-- ここだけ「通常」なのは赤い彗星を意識 -->
+            <Text>通常の3倍の速さでゲームが進行します。</Text>
+        </Replace>
+
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_QUATERNION_NAME">
+            <Text>クォータニオン</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_QUATERNION_HELP">
+            <Text>標準の4倍の速さでゲームが進行します。</Text>
+        </Replace>
+
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_QUINTUPLE_NAME">
+            <Text>クインタプル</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_GAMESPEED_QUINTUPLE_HELP">
+            <Text>標準の5倍の速さでゲームが進行します。</Text>
+        </Replace>
+
+        <!-- Unit Movement -->
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_NAME">
+            <Text>ユニット追加移動力</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_DESCRIPTION">
+            <Text>ユニットに追加の移動力を与える。</Text>
+        </Replace>
+
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_0_NAME">
+            <Text>標準</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_0_DESCRIPTION">
+            <Text>すべてのユニットは標準の [ICON_Movement] 移動力を持ちます。</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_1_NAME">
+            <Text>+1</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_1_DESCRIPTION">
+            <Text>陸上ユニットの [ICON_Movement] 移動力+1。</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_2_NAME">
+            <Text>+2</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_2_DESCRIPTION">
+            <Text>陸上ユニットの [ICON_Movement] 移動力+2、海上ユニットの [ICON_Movement] 移動力+1。</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_3_NAME">
+            <Text>+3</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_3_DESCRIPTION">
+            <Text>陸上ユニットの [ICON_Movement] 移動力+3、海上ユニットの [ICON_Movement] 移動力+1。</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_4_NAME">
+            <Text>+4</Text>
+        </Replace>
+        <Replace Language="ja_JP" Tag="LOC_MORE_UNIT_MOVEMENT_4_DESCRIPTION">
+            <Text>陸上ユニットの [ICON_Movement] 移動力+4、海上ユニットの [ICON_Movement] 移動力+2。</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

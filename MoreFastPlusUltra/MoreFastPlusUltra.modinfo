@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="429ec817-0d9a-4609-8f7f-a5ff988b87ac" version="1">
+  <Properties>
+    <Name>More Fast Plus Ultra</Name>
+    <Description>Civは楽しいしやりたいけど、時間がかかりすぎるんだよな...
+[NEWLINE]もうちょっとサクッとやれないかなー
+[NEWLINE]と考えているそこの君！
+[NEWLINE]これを授けよう！
+[NEWLINE]
+[NEWLINE]こいつは新たな「ゲームスピード」を追加し、より疾走感のあるCivを提供してくれるぞ！
+[NEWLINE]追加するゲームスピードは以下三つ！
+[NEWLINE]・通常の3倍：レッドコメット
+[NEWLINE]・通常の4倍：クォータニオン
+[NEWLINE]・通常の5倍：クインタプル
+[NEWLINE]
+[NEWLINE]さらに、ゲーム速度に合わせて、少しばかりの調整機能を追加しておいた。
+[NEWLINE]
+[NEWLINE]さあ、これを手に入れて、まだ見ぬ世界へ行こう！
+[NEWLINE]さらなる速さを！Plus Ultra！</Description>
+    <Created>1670069531</Created>
+    <Teaser>さらなる速さを！Plus Ultra！</Teaser>
+    <Authors>Tsukun</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="MoreUnitMovement_Add1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>MORE_UNIT_MOVEMENT</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="MoreUnitMovement_Add2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>MORE_UNIT_MOVEMENT</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="MoreUnitMovement_Add3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>MORE_UNIT_MOVEMENT</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="MoreUnitMovement_Add4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>MORE_UNIT_MOVEMENT</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>MoreFastPlusUltra_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Options">
+      <File>MoreGameSpeedInfo.xml</File>
+      <File>MoreUnitMovmentInfo.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateText id="Text">
+      <File>MoreFastPlusUltra_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="MoreGameSpeed">
+      <File>MoreGameSpeed_RedComet.xml</File>
+      <File>MoreGameSpeed_Quaternion.xml</File>
+      <File>MoreGameSpeed_Quintuple.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="MoreUnitMovement_Add1">
+      <Criteria>MoreUnitMovement_Add1</Criteria>
+      <File>MoreUnitMovement_Add1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="MoreUnitMovement_Add2">
+      <Criteria>MoreUnitMovement_Add2</Criteria>
+      <File>MoreUnitMovement_Add2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="MoreUnitMovement_Add3">
+      <Criteria>MoreUnitMovement_Add3</Criteria>
+      <File>MoreUnitMovement_Add3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="MoreUnitMovement_Add4">
+      <Criteria>MoreUnitMovement_Add4</Criteria>
+      <File>MoreUnitMovement_Add4.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>MoreFastPlusUltra_Text.xml</File>
+    <File>MoreGameSpeedInfo.xml</File>
+    <File>MoreGameSpeed_Quaternion.xml</File>
+    <File>MoreGameSpeed_Quintuple.xml</File>
+    <File>MoreGameSpeed_RedComet.xml</File>
+    <File>MoreUnitMovement_Add1.sql</File>
+    <File>MoreUnitMovement_Add2.sql</File>
+    <File>MoreUnitMovement_Add3.sql</File>
+    <File>MoreUnitMovement_Add4.sql</File>
+    <File>MoreUnitMovmentInfo.xml</File>
+  </Files>
+</Mod>

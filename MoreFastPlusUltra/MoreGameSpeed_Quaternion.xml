@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoreGameSpeed_Quaternion -->
+<!-- Author: Tsukun -->
+<!-- DateCreated: 12/02/2022 05:15:04 PM -->
+<GameData>
+    <Types>
+        <Row Type="GAMESPEED_QUATERNION" Kind="KIND_GAMESPEED"/>
+    </Types>
+    <GameSpeeds>
+        <Row>
+            <GameSpeedType>GAMESPEED_QUATERNION</GameSpeedType>
+            <Name>LOC_GAMESPEED_QUATERNION_NAME</Name>
+            <Description>LOC_GAMESPEED_QUATERNION_HELP</Description>
+            <CostMultiplier>25</CostMultiplier>
+            <CivicUnlockMaxCost>25</CivicUnlockMaxCost>
+            <CivicUnlockPerTurnDrop>2</CivicUnlockPerTurnDrop>
+            <CivicUnlockMinCost>5</CivicUnlockMinCost>
+        </Row>
+    </GameSpeeds>
+    <GameSpeed_Turns>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="1920" TurnsPerIncrement="18"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="1200" TurnsPerIncrement="15"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="960"  TurnsPerIncrement="9"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="480"  TurnsPerIncrement="10"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="240"  TurnsPerIncrement="15"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="96"   TurnsPerIncrement="12"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="48"   TurnsPerIncrement="31"/>
+        <Row GameSpeedType="GAMESPEED_QUATERNION" MonthIncrement="24"   TurnsPerIncrement="15"/>
+    </GameSpeed_Turns>
+    <GameSpeed_Scalings>
+        <Row>
+            <GameSpeedScalingType>QUATERNION_HALF</GameSpeedScalingType>
+            <GameSpeedType>GAMESPEED_QUATERNION</GameSpeedType>
+            <ScalingType>SCALING_HALF</ScalingType>
+            <DefaultCostMultiplier>33</DefaultCostMultiplier>
+        </Row>
+        <Row>
+            <GameSpeedScalingType>QUATERNION_SLIGHT</GameSpeedScalingType>
+            <GameSpeedType>GAMESPEED_QUATERNION</GameSpeedType>
+            <ScalingType>SCALING_SLIGHT</ScalingType>
+            <DefaultCostMultiplier>60</DefaultCostMultiplier>
+        </Row>
+    </GameSpeed_Scalings>
+    <GameSpeed_Durations>
+        <!-- 試験的数値 -->
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="5" NumberOfTurnsScaled="5"/>
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="10" NumberOfTurnsScaled="6"/>
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="15" NumberOfTurnsScaled="7"/>
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="29" NumberOfTurnsScaled="9"/>
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="30" NumberOfTurnsScaled="10"/>
+        <Row GameSpeedScalingType="QUATERNION_HALF" NumberOfTurnsOnStandard="60" NumberOfTurnsScaled="20"/>
+    </GameSpeed_Durations>
+</GameData>
