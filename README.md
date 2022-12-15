@@ -1,3 +1,9 @@
+# はじめに
+このModの詳細を知りたい方は以下リンクよりをご確認ください。  
+[詳細はこちら](https://github.com/PublicTsukun/MoreFastPlusUltra/wiki/MoreFastPlusUltra)  
+  
+_ver.1.1.0_ 
+
 # これはなに？
 > Civ6楽しいしやりたいけど、時間がかかりすぎるんだよな...  
 > かといってターン数で制限するのもなんか違うし...

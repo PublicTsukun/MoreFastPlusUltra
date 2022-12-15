@@ -17,9 +17,11 @@
 [NEWLINE]
 [NEWLINE]さあ、これを手に入れて、まだ見ぬ世界へ行こう！
 [NEWLINE]さらなる速さを！Plus Ultra！</Description>
-    <Created>1670069531</Created>
+    <Created>1670934323</Created>
     <Teaser>さらなる速さを！Plus Ultra！</Teaser>
     <Authors>Tsukun</Authors>
+    <SpecialThanks>他MODの製作、及びCiv6Wiki作成してくださった偉大なる皆様</SpecialThanks>
+    <Homepage>https://github.com/PublicTsukun/MoreFastPlusUltra/wiki/MoreFastPlusUltra</Homepage>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <ActionCriteria>
@@ -54,49 +56,64 @@
   </ActionCriteria>
   <FrontEndActions>
     <UpdateText id="Text">
-      <File>MoreFastPlusUltra_Text.xml</File>
+      <File>Assets/MoreFastPlusUltra_Text.xml</File>
     </UpdateText>
     <UpdateDatabase id="Options">
-      <File>MoreGameSpeedInfo.xml</File>
-      <File>MoreUnitMovmentInfo.xml</File>
+      <File>Assets/MoreGameSpeed/MoreGameSpeedInfo.xml</File>
+      <File>Assets/MoreUnitMovement/MoreUnitMovmentInfo.xml</File>
     </UpdateDatabase>
   </FrontEndActions>
   <InGameActions>
     <UpdateText id="Text">
-      <File>MoreFastPlusUltra_Text.xml</File>
+      <File>Assets/MoreFastPlusUltra_Text.xml</File>
     </UpdateText>
     <UpdateDatabase id="MoreGameSpeed">
-      <File>MoreGameSpeed_RedComet.xml</File>
-      <File>MoreGameSpeed_Quaternion.xml</File>
-      <File>MoreGameSpeed_Quintuple.xml</File>
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
+      <File>Assets/MoreGameSpeed/MoreGameSpeed_RedComet.xml</File>
+      <File>Assets/MoreGameSpeed/MoreGameSpeed_Quaternion.xml</File>
+      <File>Assets/MoreGameSpeed/MoreGameSpeed_Quintuple.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="MoreUnitMovement_Add1">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
       <Criteria>MoreUnitMovement_Add1</Criteria>
-      <File>MoreUnitMovement_Add1.sql</File>
+      <File>Assets/MoreUnitMovement/MoreUnitMovement_Add1.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="MoreUnitMovement_Add2">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
       <Criteria>MoreUnitMovement_Add2</Criteria>
-      <File>MoreUnitMovement_Add2.sql</File>
+      <File>Assets/MoreUnitMovement/MoreUnitMovement_Add2.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="MoreUnitMovement_Add3">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
       <Criteria>MoreUnitMovement_Add3</Criteria>
-      <File>MoreUnitMovement_Add3.sql</File>
+      <File>Assets/MoreUnitMovement/MoreUnitMovement_Add3.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="MoreUnitMovement_Add4">
+      <Properties>
+        <LoadOrder>2000</LoadOrder>
+      </Properties>
       <Criteria>MoreUnitMovement_Add4</Criteria>
-      <File>MoreUnitMovement_Add4.sql</File>
+      <File>Assets/MoreUnitMovement/MoreUnitMovement_Add4.sql</File>
     </UpdateDatabase>
   </InGameActions>
   <Files>
-    <File>MoreFastPlusUltra_Text.xml</File>
-    <File>MoreGameSpeedInfo.xml</File>
-    <File>MoreGameSpeed_Quaternion.xml</File>
-    <File>MoreGameSpeed_Quintuple.xml</File>
-    <File>MoreGameSpeed_RedComet.xml</File>
-    <File>MoreUnitMovement_Add1.sql</File>
-    <File>MoreUnitMovement_Add2.sql</File>
-    <File>MoreUnitMovement_Add3.sql</File>
-    <File>MoreUnitMovement_Add4.sql</File>
-    <File>MoreUnitMovmentInfo.xml</File>
+    <File>Assets/MoreFastPlusUltra_Text.xml</File>
+    <File>Assets/MoreGameSpeed/MoreGameSpeedInfo.xml</File>
+    <File>Assets/MoreGameSpeed/MoreGameSpeed_Quaternion.xml</File>
+    <File>Assets/MoreGameSpeed/MoreGameSpeed_Quintuple.xml</File>
+    <File>Assets/MoreGameSpeed/MoreGameSpeed_RedComet.xml</File>
+    <File>Assets/MoreUnitMovement/MoreUnitMovement_Add1.sql</File>
+    <File>Assets/MoreUnitMovement/MoreUnitMovement_Add2.sql</File>
+    <File>Assets/MoreUnitMovement/MoreUnitMovement_Add3.sql</File>
+    <File>Assets/MoreUnitMovement/MoreUnitMovement_Add4.sql</File>
+    <File>Assets/MoreUnitMovement/MoreUnitMovmentInfo.xml</File>
   </Files>
 </Mod>
