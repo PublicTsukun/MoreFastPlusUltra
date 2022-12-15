@@ -32,7 +32,8 @@ Civ6 というゲームは、1ゲームを非常に長い時間をかけてプ�
 
 # どうやって使うの？
 ## ダウンロード
-[ここをクリック](https://github.com/PublicTsukun/MoreFastPlusUltra/archive/refs/tags/1.0.0.zip)
+[リリース一覧](https://github.com/PublicTsukun/MoreFastPlusUltra/releases)
+よりほしいバージョンをダウンロードしてください。
 
 ## Mod導入方法  
 1. MODをダウンロード（.zipや.rar形式がほとんどです。）
