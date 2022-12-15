@@ -1,6 +1,6 @@
 # はじめに
 このModの詳細を知りたい方は以下リンクよりをご確認ください。  
-[詳細はこちら](https://github.com/PublicTsukun/MoreFastPlusUltra/wiki/MoreFastPlusUltra)  
+[詳細はこちら](https://github.com/PublicTsukun/MoreFastPlusUltra/wiki/More-Fast-Plus-Ultra-%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BC%81)  
   
 _ver.1.1.0_ 
 
